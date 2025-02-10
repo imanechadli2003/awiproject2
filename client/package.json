@@ -1,0 +1,47 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@gluestack-style/react": "^1.0.30",
+    "@mui/x-data-grid": "^7.21.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.7",
+    "dotenv": "^16.4.5",
+    "lucide": "^0.453.0",
+    "lucide-react": "^0.453.0",
+    "next": "^14.2.4",
+    "numeral": "^2.0.6",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.7",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
+    "recharts": "^2.15.0",
+    "redux-persist": "^6.0.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "@types/numeral": "^2.0.5",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.14",
+    "tw-colors": "^3.3.2",
+    "typescript": "^5"
+  }
+}
